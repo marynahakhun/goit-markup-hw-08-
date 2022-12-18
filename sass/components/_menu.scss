@@ -1,0 +1,59 @@
+.menu-toggle {
+  height: 40px;
+    width: 40px;
+    fill:#212121;
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     cursor: pointer;
+     border: none;
+     border-radius: 50%;
+     outline: none;
+   }
+   
+   @media (min-width: 768px) {
+     .menu-toggle {
+       display: none;
+     }
+   }
+   
+   .menu-toggle:hover {
+     fill: $blue-color;
+   }
+   
+   .menu-container {
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+  flex-direction: column;
+     width: 100%;
+   height: 100%;
+ 
+     background-color: white;
+     z-index: 999;
+   
+     transform: translateX(100%);
+     transition: transform 250ms ease-in-out;
+   }
+   
+   .menu-container.is-open {
+     transform: translateX(0);
+   }
+   
+   .menu-container .menu-toggle {
+     position: absolute;
+     top: 10x;
+     right: 0;
+     color: #fff;
+   }
+ 
+   
+   .bo{
+     margin-top: 10px;
+     margin-right: 15px;
+   }
+   .bc{
+     margin-top: 10px;
+    
+   }

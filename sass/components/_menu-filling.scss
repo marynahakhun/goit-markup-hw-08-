@@ -1,0 +1,116 @@
+
+    
+  .mobile-menu {
+
+  }
+ .mobil-menu_nav {
+   
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: auto;
+
+
+    margin-top: 48px;
+    margin-left: 40px;
+    color: #2196F3;
+    & a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        font-size: 40px;
+        line-height: calc(47/40);
+   padding-bottom: 32px;
+        color: $black-color;
+    
+    
+     }
+    
+ }
+ .mobil-menu_nav a:hover{
+    color: $blue-color;
+ }
+ .mobil-menu_nav li+li{
+    margin-top: 32px;
+ }
+ 
+ .mobil-menu_contacts {
+margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;}
+    .mobil-menu_contacts  li+li {
+        padding-top: 32px;
+    }
+
+   .mobil-menu_tel{
+  color: $blue-color;
+    letter-spacing: 0.02em;
+    font-size: 34px;
+    line-height: 40px;
+  
+    
+   }
+   .mobil-menu_mail{
+
+color: $black-color;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    line-height: 28px;
+   }
+
+ 
+
+
+
+ .mobil-menu_links{
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+
+    margin-bottom: 48px;
+    margin-top: 64px;
+  
+
+    & li{
+        padding-right: 10px;
+        padding-left: 10px;
+            border-right: 1px solid  rgba(33, 33, 33);
+
+
+    }
+    & li:last-child{
+        border: none;
+    }
+ 
+    & a{
+   
+        font-size: 18px;
+        line-height: 22px;
+        color: $blue-color;
+       
+    }
+   
+
+    // &:not(:last-child){
+
+    //     &::after{
+    //         content: "";
+    //         position: absolute;
+    //         height: 1px;
+    //         width:22px;
+    //         background-color: rgba(33, 33, 33);
+    //         bottom: 50%;
+    
+    //     }
+    // }
+   
+ }
+//  .mobil-menu_links a:not(:last-child){
+//     border: 1px solid  rgba(33, 33, 33);
+   
+// }
+
+
+

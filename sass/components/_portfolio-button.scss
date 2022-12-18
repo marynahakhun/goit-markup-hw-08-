@@ -1,0 +1,119 @@
+.border{
+    border-bottom: 1px solid #ECECEC;
+   width: 100%;
+}
+.portfolio{
+    @media screen and(min-width:768x){
+        margin-bottom: 0;
+        display: flex;
+        width: 575px;
+        margin-left: auto;
+        margin-right: auto;
+          
+          
+        }
+      @media screen and(min-width:320px){
+        // width: 426px;
+     
+        margin-top: 60px;
+        
+      }
+      
+      
+    &__buttons {
+        // padding-top: 94px;
+        display: flex;
+        // margin-bottom: 34px;
+        // justify-content: center;
+        // top: 174px;
+        @media screen and(min-width:320px){
+            flex-wrap: wrap;
+            max-width: 426px;
+margin-bottom: 40px;
+           }
+           
+           @media screen and(min-width:768px){
+            display: flex;
+            max-width: 575px;
+            margin-top: 60px;
+            margin-bottom: 14px;
+           margin-left: auto;
+           margin-right: auto;
+           }
+    
+    }
+    
+    &__buttons li {
+        margin-right: 8px;
+       
+    
+    }
+    &__buttons li:nth-child(-n + 3){
+        @media screen and(min-width:320px){
+        margin-bottom: 15px;}
+        @media screen and(min-width:768px){
+            margin-bottom: 0px;}
+    }
+    &__buttons li:last-child {
+        margin-right: 0;
+    }
+    &__button {
+        height: 38px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $black-color;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    &__button:hover,
+    &__button:focus {
+        background: #2196F3;
+    
+    
+        color: $white-color;
+    }
+    
+}
+
+.all {
+
+    width: 73px;
+    left: 512px;
+    
+}
+
+.site {
+
+    width: 125px;
+    left: 593px;
+
+}
+
+.apps {
+
+    width: 112px;
+    left: 726px;
+}
+
+.design {
+
+    width: 103px;
+    left: 846px;
+}
+
+.marketing {
+
+    width: 130px;
+    left: 957px;
+
+}

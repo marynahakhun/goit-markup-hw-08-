@@ -1,0 +1,20 @@
+   $black-color: black;
+   $white-color: white;
+   $blue-color: rgb(33, 150, 243.1);
+   $silver-color: rgba(117, 117, 117, 1);
+   $silver-bg: rgba(245, 244, 250, 1);
+   $silver-section: rgba(47, 48, 58, 1);
+   $mail-tel-footer: rgba(255, 255, 255, 0.6);
+
+   
+   body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: $black-color;
+
+    background: $white-color;
+   margin-left: auto;
+   margin-bottom: auto;
+
+}
+
